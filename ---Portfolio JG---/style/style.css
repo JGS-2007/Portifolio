@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+
+:root {
+    --cinza: #262626;
+    --preto: #0D0D0D;
+    --amarelo-claro: #F2C572;
+    --dourado: #BF8924;
+    --dourado-escuro: #8C4E03;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: var(--cinza);
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    z-index: 1;
+}
+
+/*Header tem 7 de vh*/
+
+.sessão__1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.sessão__1-background {
+    position: absolute;
+    width: 100vw;
+    height: 240px;
+    filter: brightness(40%);
+    z-index: -1;
+}
+
+.sessão__1-titulo {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+}
+
+.sessão__1-font {
+    font-weight: 400;
+    color: var(--dourado);
+}
+
+.sessão__1-ftjoao {
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    top: 25px;
+
+    background: url(IMG-20220315-WA0277.jpg);
+    border: 7px solid #262626;
+    border-radius: 50%;
+    z-index: -1;
+}
+
